@@ -15,7 +15,8 @@ class Dier:
         print(f"{self.naam}, {self.geluid}, {self.huid}")
 
     def uitgebreide_info(self):
-        print(f"{self.naam}, {self.geluid}, {self.huid}")
+        print(f"{self.naam} is een {self.soort}")
+        print(f"{self.geluid}, {self.huid}")
         print("Voedsel: ")
         print(", ".join(self.voedsel))
         print("===========")
@@ -36,3 +37,4 @@ hond.huid = "bruine pels"
 
 cat.uitgebreide_info()
 hond.uitgebreide_info()
+
