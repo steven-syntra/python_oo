@@ -10,6 +10,7 @@ class Dier:
     def __init__(self, naam_dier, soort_dier):
         self.naam = naam_dier
         self.soort = soort_dier
+        self.testje()
 
     def beknopte_info(self):
         print(f"{self.naam}, {self.geluid}, {self.huid}")
@@ -21,6 +22,9 @@ class Dier:
         print(", ".join(self.voedsel))
         print("===========")
         print("")
+
+    def testje(self):
+        print("hallo")
 
 
 cat = Dier("zini", "kat")
