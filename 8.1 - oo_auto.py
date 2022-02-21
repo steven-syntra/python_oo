@@ -17,6 +17,7 @@ class Auto:
         print( "Brandstof: %s" % self.brandstof )
         print()
 
+
 car1 = Auto("Volkswagen", "Kever", 1966, "Benzine")
 car2 = Auto("Renault", "Twingo", 2008, "Diesel")
 car3 = Auto("Fiat", "500", 2013, "LPG")

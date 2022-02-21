@@ -6,21 +6,22 @@ class Bestand:
     def __init__(self, naam, extensie ):
         self.naam = naam
         self.extensie = extensie
+        self.inhoud = ""
         self.fullname = naam + "." + extensie
         self.creatie = datetime.datetime.now()
 
     def Opslaan(self):
-        fp = open(self.fullname, "w")
-        fp.write(self.inhoud)
-        fp.close()
+        self.Save(self.fullname)
         print("Bestand %s opgeslagen" % self.fullname)
 
     def Dupliceer(self):
         naam_kopie = self.naam + "_kopie" + "." + self.extensie
-        fp = open(naam_kopie, "w")
-        fp.write(self.inhoud)
-        fp.close()
+        self.Save(naam_kopie)
         print("Bestand %s opgeslagen" % naam_kopie)
+
+    def Save(self, naam):
+        with open(naam, "w") as fp:
+            fp.write(self.inhoud)
 
     def Info(self):
         print("Fullname: %s" % self.fullname)
