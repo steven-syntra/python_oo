@@ -1,5 +1,7 @@
 class Product:
-
-    def __init__(self, naam, prijs ):
+    """
+    Dit is de docstring
+    """
+    def __init__(self, naam, prijs):
         self.naam = naam
         self.prijs = prijs
