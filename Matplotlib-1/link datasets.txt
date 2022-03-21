@@ -1,0 +1,1 @@
+https://github.com/goodboychan/goodboychan.github.io/blob/c8b98051cbe1dde1f4e529e91f6da050f1a887f5/_notebooks/dataset/austin_weather.csv
