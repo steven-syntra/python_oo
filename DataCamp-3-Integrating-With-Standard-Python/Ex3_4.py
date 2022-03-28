@@ -15,10 +15,12 @@ class Employee:
     # Rewrite using exceptions
     def give_bonus(self, amount):
         if amount > Employee.MAX_BONUS:
-            raise BonusError("The bonus amount is too high!")
+            print("ERR 1: The bonus amount is too high!")
+            raise BonusError
 
         elif self.salary + amount < Employee.MIN_SALARY:
-            raise SalaryError("The salary after bonus is too low!")
+            print("ERR 2: The salary after bonus is too low!")
+            raise SalaryError
 
         else:
             self.salary += amount

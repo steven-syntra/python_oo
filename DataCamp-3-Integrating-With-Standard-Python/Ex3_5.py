@@ -5,7 +5,7 @@ emp = Employee("Katze Rik", salary=50000)
 try:
     emp.give_bonus(7000)
 except SalaryError:
-    print("SalaryError caught!")
+    print("SalaryError or it's child BonusError caught!")
 
 try:
     emp.give_bonus(7000)
@@ -19,7 +19,8 @@ except SalaryError:
 
 try:
     emp.give_bonus(-100000)
-except BonusError:
+except SalaryError:
     print("BonusError caught again!")
 
 
+print("DE REST VAN DE CODE")

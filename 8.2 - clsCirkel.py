@@ -33,3 +33,5 @@ c2 = Cirkel(12)
 # c2.BerekenOppervlakte()
 # c2.BerekenOmtrek()
 c2.Info()
+
+print(dir(c2))
