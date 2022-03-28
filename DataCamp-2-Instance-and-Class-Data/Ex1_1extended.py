@@ -50,3 +50,8 @@ print("====== p3 =======")
 print(f"SPEED: {p3.SPEED}")
 print(f"properties: {p3.__dict__}")
 print("")
+
+Player.SPEED = 1000
+
+print("====== p3 =======")
+print(f"SPEED: {p3.SPEED}")

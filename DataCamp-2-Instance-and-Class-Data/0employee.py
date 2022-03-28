@@ -17,5 +17,5 @@ class Employee:
 
 
 emp = Employee.from_file("employee_data.txt")
-print(type(emp))
+# print(type(emp))
 print(emp.__dict__)
