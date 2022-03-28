@@ -10,5 +10,11 @@ class Rectangle:
 class Square(Rectangle):
 
     def __init__(self, w):
-        self.h = w
-        self.w = w
+        self.z = w
+
+
+r = Rectangle(10,20)
+print(r.__dict__)
+
+s = Square(4)
+print(s.__dict__)

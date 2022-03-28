@@ -9,3 +9,9 @@ class Customer:
     @property
     def balance(self):
         return self._balance
+
+
+c = Customer("Steven", 10000)
+print(c.balance)
+c._balance = -9
+print(c._balance)
