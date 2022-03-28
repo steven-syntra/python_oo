@@ -20,4 +20,3 @@ ax.bar("Gymnastics",
 ax.set_ylabel("Height (cm)")
 
 plt.show()
-
