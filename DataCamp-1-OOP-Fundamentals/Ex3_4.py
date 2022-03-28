@@ -20,3 +20,4 @@ class Employee:
 emp = Employee("Korel Rossi", -1000)
 print(emp.name)
 print(emp.salary)
+print(emp.hire_date)
