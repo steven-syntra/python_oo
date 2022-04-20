@@ -42,6 +42,10 @@ mijnklanten.add_klant("Peeters")
 mijnklanten.add_klant("Janssens")
 mijnklanten.add_klant("Willems")
 
+# myiter = mijnklanten.__iter__()
+# first_klant = myiter.__next__()
+# print(first_klant.name, first_klant.saldo)
+
 # loop over collection
 for klant in mijnklanten:
     print(klant.name, klant.saldo)
