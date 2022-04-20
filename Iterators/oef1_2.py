@@ -6,7 +6,7 @@ class Klanten:
 
     # werkwijze Elke (list comprehension)
     def __iter__(self):
-        return (s for s in self.collection)
+        return (kla for kla in self.collection)
 
     # werkwijze Steven
 
